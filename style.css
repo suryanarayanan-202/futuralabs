@@ -1,0 +1,372 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+.firstpage {
+    background-color: rgb(138, 7, 161);
+    /* border: 4px solid red; */
+    /* height: ; */
+
+}
+
+
+.navbar {
+
+    /* border: 3px solid; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    background-color: rgb(78, 35, 109);
+}
+
+
+
+.nav {
+
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    align-items: center;
+    color: white;
+}
+
+.bttn {
+    color: white;
+    background-color: orange;
+    border-radius: 20px;
+    width: 160px;
+    height: 50px;
+}
+
+
+
+.pics {
+
+    display: flex;
+    justify-content: end;
+    padding: 35px 60px;
+}
+
+
+
+.bg {
+
+    display: flex;
+    justify-content: space-between;
+    /* border: 8px solid ; */
+    /* height: fit-content; */
+    /* width: fit-content; */
+    /* align-items: center; */
+    /* padding-bottom: 250px; */
+
+}
+
+.middle {
+
+    padding: 100px 100px;
+    margin: 30px;
+    margin-bottom: 40px;
+
+
+}
+
+
+.head2>h1 {
+    font-size: 80px;
+    color: orange;
+}
+
+
+
+.middle>div>p {
+
+    color: white;
+}
+
+
+
+.middle button {
+
+    color: white;
+    /* background-color: blueviolet; */
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+
+}
+
+
+.middle button:hover {
+    background-color: white;
+    color: blueviolet;
+}
+
+
+.boy-girl {
+
+    padding-right: 100px;
+
+}
+
+.boy-girl>div>img {
+
+    position: relative;
+    bottom: 100px;
+    right: 30px;
+
+
+}
+
+
+
+
+/*2mathe  */
+
+.alround {
+
+    /* border: 4px solid; */
+    /* height: 900px; */
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+.alround>.parent {
+
+    text-align: center;
+
+}
+
+
+.bttn .b1 {
+
+    color: blue;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+.bttn .b2 {
+
+    color: blue;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+.bttn .b3 {
+
+    color: blue;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+
+.boxs {
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+.boxs>.box {
+
+    border: 1px solid;
+    border-radius: 2rem;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxs img {
+
+    object-fit: contain;
+    width: 200px;
+    height: 80px;
+
+
+
+}
+
+.boxs h3 {
+
+    color: rgb(157, 55, 157)
+}
+
+.btn .btn2 {
+
+    color: blue;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+
+
+/* 3matg */
+
+.alround3 {
+
+
+    /* border: 2px solid; */
+    /* height: 900px; */
+    /* width:fit-content; */
+    background-color: rgb(234, 220, 234);
+}
+
+
+
+.parent3 {
+
+    display: flex;
+    padding: 30px;
+
+
+
+}
+
+.child3 {
+    /* border: 1px solid; */
+    flex: 1;
+}
+.child3 h1{
+    color: rgb(138, 7, 161) ;
+
+
+}
+
+.img3 {
+
+    flex: 1;
+}
+
+.btn-3{
+
+ color: rgb(138, 7, 161);
+ width: 100;
+ height: 40;
+ border-radius: 15px;
+
+}
+
+.third-box {
+    flex: 1; 
+    
+    display: flex;
+    align-items: center;
+}
+
+.bxxx3 {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* border: 1px solid; */
+    /* border-radius: 30; */
+
+
+}
+
+
+.bxs3 {
+
+
+    border: 1px solid;
+    border-radius: 15px;
+    height: 100px;
+    width: 200px;
+    padding: 15px;
+    
+}
+
+.bxxx3 h1{
+
+    color: rgb(138, 7, 161);
+    font-size: 30px;
+}
+
+    /* 4math */
+
+    .alround-4{
+
+        /* background-color: whitesmoke; */
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+
+    .parent-4{
+
+
+        text-align: center;
+     
+
+
+
+    }
+
+    .box-4{
+        
+        display: flex;
+        justify-content: center;
+         gap: 30px;
+         padding-top: 20px;
+         background-color: white;
+         padding: 20px;
+
+      
+    }
+
+    .b-4{
+
+        width: 430px;
+        height: 350px;
+        border: 1px solid;
+        border-radius: 30px;
+    }
+
+    .Bttn-4{
+
+        text-align: center;
+        
+  
+    }
+
+     .bttn-4{
+         /* border: 1px solid; */
+         /* width: 30px; */
+  
+
+    }
+
+
+/* end */
+
+
+
+          /* 5matha */
+
+        
