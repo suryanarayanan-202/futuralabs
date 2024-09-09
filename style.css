@@ -7,15 +7,27 @@
 }
 
 
+.one {
 
-
-
-
-.firstpage {
-    background-color: rgb(138, 7, 161);
-    /* border: 4px solid red; */
-    /* align-items: center; */
+    background-color: rgb(91, 38, 140);
 }
+
+.body {
+
+    background-image: url(https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/bg01.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* border: 1px solid; */
+
+}
+
+
+/* 
+.firstpage {
+  position: ;
+  bottom: 100px;
+} */
+
 
 
 .navbar {
@@ -24,7 +36,9 @@
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
-    background-color: rgb(78, 35, 109);
+    padding-bottom: 10px;
+    align-items: center;
+    gap: 190px;
 
 }
 
@@ -39,13 +53,21 @@
     color: white;
 }
 
+.nav>li {
+
+    font-size: 18px;
+}
+
 .bttn {
     color: white;
     background-color: orange;
     border-radius: 20px;
     width: 160px;
     height: 50px;
-
+    border-style: none;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .bttn:hover {
@@ -59,35 +81,43 @@
 
 
 
+
+
 .pics {
 
+    /* border: 1px solid; */
     display: flex;
     justify-content: end;
-    padding: 35px 60px;
+    padding: 5px 70px;
+
+}
+
+.pics>.pic-1 {
+
+    padding-top: 50px;
 }
 
 
-
 .bg {
-
-    display: flex;
-    justify-content: space-between;
+    
     /* border: 8px solid ; */
-    /* height: fit-content; */
-    /* width: fit-content; */
-    /* align-items: center; */
-    /* padding-bottom: 250px; */
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+
 
 }
 
 .middle {
 
-    padding: 100px 100px;
-    margin: 30px;
-    margin-bottom: 40px;
 
+    /* border: 1px solid; */
+    padding-bottom: 100px;
+    padding-left: 20px;
 
 }
+
+
 
 
 .head2>h1 {
@@ -103,31 +133,41 @@
 }
 
 
-.bttn-1>.A-1 {
 
-    width: 150px;
-    height: 50px;
-    border-radius: 30px;
+.bttn-1 .now-1 {
+
+
+    width: 160;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid;
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(91, 50, 131);
+    font-size: 17px;
 }
 
 
 
-.A-1:hover {
+.now-1 :hover {
     color: blue;
     background-color: white;
+    cursor: pointer;
 }
+
 
 .boy-girl {
 
-    padding-right: 100px;
+    /* border: 1px solid; */
+    padding-left: 150px;
+    
 
 }
 
-.boy-girl>div>img {
 
-    /* position: relative; */
+.boy-girl>.img-rt {
+
+    position: relative;
     bottom: 100px;
     right: 30px;
 
@@ -140,7 +180,7 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    border: 1px solid;
+    /* border: 1px solid; */
     width: fit-content;
     height: fit-content;
 
@@ -164,28 +204,58 @@
 
     position: sticky;
     bottom: 150px;
-    right: 00px;
+    right: 40px;
     height: 100px;
 }
 
 
+.byg-1 {
 
+    animation-name: byg-1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* border: 1px solid; */
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+
+}
+
+@keyframes byg-1 {
+
+    0% {
+        resize: 5%;
+
+    }
+
+    100% {
+        resize: ;
+
+    }
+}
+
+/* .arr-1{
+
+    position: relative;
+bottom: 500px;
+
+
+} */
 
 
 /*2matha */
 
 
-
 .alround-2 {
 
     /* border: 4px solid; */
-    /* height: 900px; */
-    /* display: flex; */
-    /* justify-content: center; */
-    padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-bottom: 100px; */
+    padding-top: 100px;
+
 
 }
+
 
 .alround-2>.parent {
 
@@ -193,6 +263,26 @@
 
 }
 
+.parent>div>h3 {
+
+    font-size: 20px;
+
+}
+
+.parent>div>p {
+
+    font-size: 20px;
+    color: rgb(60, 52, 52);
+
+
+}
+
+.parent>div>h1 {
+
+    font-size: 30px;
+    color: rgb(74, 28, 117);
+
+}
 
 
 .boxs {
@@ -236,13 +326,21 @@
     color: rgb(157, 55, 157)
 }
 
+.box:hover {
+
+    color: orange;
+
+
+}
+
 .View-2 {
     color: blue;
-    background-color: white;
-    width: 150px;
+    /* background-color: white; */
+    width: 190px;
     height: 50px;
     border-radius: 20px;
-
+    font-size: 16px;
+    cursor: pointer;
 
 }
 
@@ -257,9 +355,11 @@
 
 .b_2 {
 
-    width: 100px;
+    width: 120px;
     height: 50px;
-    border-radius: 20px;
+    border-radius: 15px;
+    font-size: 16px;
+
 
 }
 
@@ -268,6 +368,12 @@
     background-color: rgb(101, 56, 144);
     border-style: none;
 
+}
+
+.arr-2{
+
+    display: flex;
+    justify-content:end;
 }
 
 
@@ -284,53 +390,71 @@
 
 .alround3 {
 
+    background-color: whitesmoke;
+    /* padding-top: 100px; */
+    padding-bottom: 100px;
+
 
     /* border: 2px solid; */
-    /* height: 900px; */
-    /* width:fit-content; */
-    background-color: rgb(230, 225, 225);
-    padding-top: 100;
 }
 
+.child3>h1 {
 
+    color: rgb(74, 28, 117);
+
+}
 
 .parent3 {
 
     display: flex;
-
-
+    padding-left: 80px;
+    /* border: 1px solid;☻ */
 
 
 }
 
 .child3 {
-    /* border: 1px solid; */
     flex: 1;
-}
-
-.child3 h1 {
-    color: rgb(138, 7, 161);
-
+    /* border: 1px solid;☻ */
 
 }
+
+.child3>p {
+
+    font-size: 19
+}
+
+.child3>h1 {
+
+    font-size: 35px;
+}
+
 
 .img3 {
 
     flex: 1;
+    padding-left: 50px;
+    /* border: 1px solid; */
 }
 
 .btn-3 {
 
-    color: rgb(138, 7, 161);
-    width: 100;
-    height: 40;
+    width: 120px;
+    height: 50px;
     border-radius: 15px;
+    font-size: 18px;
+    color: blueviolet;
 
 }
 
+
+
 .btn-3:hover {
     color: white;
-    background-color: blue;
+    background-color: rgb(101, 56, 144);
+    border-style: none;
+    cursor: pointer;
+
 }
 
 
@@ -355,7 +479,8 @@
 .bxs3 {
 
 
-    border: 1px solid;
+    /* border: 1px solid; */
+    background-color: white;
     border-radius: 15px;
     height: 100px;
     width: 200px;
@@ -372,7 +497,23 @@
 
 
 
+
+/* end */
+
+
+
 /* 4math */
+
+
+.fourth {
+
+    padding-top: 190px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-image: url(/image/bga2.svg);
+    background-repeat: no-repeat;
+    background-size:200px;
+}
 
 
 
@@ -380,9 +521,9 @@
 
 .alround-4 {
 
-    /* background-color: whitesmoke; */
-    padding-top: 40px;
-    padding-bottom: 40px;
+    background-color:whitesmoke;
+
+
 }
 
 
@@ -392,10 +533,27 @@
 
     text-align: center;
 
-
-
-
 }
+
+.parent-4 h3 {
+
+
+    font-size: 18px;
+}
+
+
+.parent-4 h1 {
+
+    color: rgb(89, 32, 143);
+    font-size: 30px;
+}
+
+.parent-4 p {
+
+    color: rgb(59, 53, 53);
+    font-size: 18px;
+}
+
 
 .box-4 {
 
@@ -403,47 +561,77 @@
     justify-content: center;
     gap: 30px;
     padding-top: 20px;
-    background-color: white;
     padding: 20px;
+    /* border: 1px solid; */
+
 
 
 }
 
 .b-4 {
 
-    width: 430px;
+    width: 390px;
     height: 350px;
-    /* border: 1px solid; */
     border-radius: 30px;
     padding: 10px 10px;
+    background-color: white;
+    border: 1px solid;
+
+}
+
+.b-4>h2 {
+
+    color: rgb(89, 32, 143);
+
+}
+
+.b-4>p {
+
+    font-size: 18px;
+    color: rgb(154, 147, 147);
 }
 
 .Bttn-4 {
 
     text-align: center;
-
+    padding-top: 30px;
 
 
 }
 
 .btn-4 {
 
-    width: 110px;
+    width: 160px;
     height: 50px;
     border-radius: 20px;
     color: blue;
+    font-size: 18px;
 
 }
 
+
+.btn-4:hover {
+
+    color: white;
+    background-color: rgb(101, 56, 144);
+    border-style: none;
+    cursor: pointer;
+
+}
 
 
 /* 5matha */
 
 
 
+
 .major-5 {
 
     background-color: rgb(92, 50, 131);
+    background-image: url(https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/bg02.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 
 
@@ -523,7 +711,7 @@
 
 .alround-6 {
 
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 
 
@@ -597,12 +785,14 @@
 
 .major-7 {
 
-    background-color: rgb(92, 26, 155);
+    background-color: rgb(83, 54, 110);
     border: 1px solid;
     padding-bottom: 100;
     padding-top: 50px;
     padding-bottom: 50px;
-
+    background-image: url(https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/bg03.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -616,6 +806,7 @@
     padding-top: 30px;
     padding-bottom: 50px;
 
+
 }
 
 
@@ -627,6 +818,14 @@
     justify-content: center;
     gap: 110px;
 
+}
+
+.img-7 {
+
+    background-image: url(https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/image-bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 
 }
 
@@ -647,6 +846,8 @@
     border: 1px solid;
     border-radius: 30px;
     text-align: center;
+    padding-top: 15px;
+
 
 }
 
@@ -659,6 +860,7 @@
 .detls-7>h2 {
 
     font-size: 16px;
+    padding-top: 10px;
 
 }
 
@@ -675,6 +877,32 @@
     padding-top: 30px;
 }
 
+.view-7 {
+
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.v-7 {
+
+    width: 100;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid;
+    color: white;
+    background-color: rgb(90, 58, 120);
+    font-size: 17px;
+}
+
+.v-7:hover {
+
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}
+
 .parent-7>h1 {
 
     font-size: 30px;
@@ -682,6 +910,11 @@
 
 }
 
+
+.child-7>p {
+
+    font-size: 18px;
+}
 
 
 
@@ -702,7 +935,7 @@
 .img-8 {
 
     background-color: rgb(69, 7, 126);
-    background-image: url('https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/bg04.svg' );
+    background-image: url('https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/bg04.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1300px;
@@ -712,11 +945,11 @@
     display: flex;
     justify-content: center;
     gap: 500px;
-    
+
 
 }
 
-.dtl-8>h1{
+.dtl-8>h1 {
 
     color: white;
     font-size: 28px;
@@ -724,13 +957,13 @@
 
 }
 
-.dtl-8>h3{
+.dtl-8>h3 {
 
     color: white;
     font-size: 15px;
 }
 
-.dtl-8{
+.dtl-8 {
 
     /* border: 1px solid yellow; */
     width: 900px;
@@ -739,26 +972,25 @@
 }
 
 
-.im-88{
+.im-88 {
 
     position: relative;
     bottom: 100px;
-   
+
 
 }
 
-.bt-8{
+.bt-8 {
 
     color: blueviolet;
     border-radius: 10px;
     height: 45px;
     width: 200px;
     border-style: none;
-
-
+    font-size: 17px
 }
 
-.bt-8:hover{
+.bt-8:hover {
 
     color: white;
     background-color: blueviolet;
@@ -788,7 +1020,7 @@
 .bx-9 {
 
     width: 1350px;
-    height: 900;
+    height: 900px;
     background-color: whitesmoke;
     /* border: 1px solid; */
     padding-top: 70px;
@@ -857,7 +1089,7 @@
 
 
 
-          /* 10 */
+/* 10 */
 
 
 .page-10 {
@@ -865,111 +1097,133 @@
     background-color: rgb(60, 7, 109);
     padding-top: 50px;
     padding-bottom: 50px;
+
+
+
 }
 
 .parent-10 {
 
     display: flex;
-    /* justify-content: center; */
-    gap: 60px;
+    gap: 40px;
 }
 
 .girl-10 {
 
     /* border: 2px solid ; */
-    padding-left: 140px;
+    padding-left: 90px;
+
+
 }
 
 .enq-10 {
 
     /* border: 1px solid; */
     color: white;
+
+
 }
 
-.blk-10 {
+.login-form {
 
     display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    padding-top: 50px;
+    gap: 30px;
+}
+
+
+.first-form input {
+
+    width: 420px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(86, 40, 130);
+
+}
+
+.second-frm input {
+
+
+    width: 420px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(86, 40, 130);
+
+
+}
+
+.second-frm textarea {
+    width: 420px;
+    height: 115px;
+    border-radius: 10px;
+    background-color: rgb(86, 40, 130);
 
 
 
 }
 
+.btn-10 {
 
-.blks-10 {
+    display: flex;
+    justify-content: end;
+    padding-top: 30px;
+}
 
-    background-color: rgb(90, 46, 131);
-    height: 50px;
-    width: 350px;
+.sub-7 {
+    width: 100;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
     border: 1px solid;
-    text-align: center;
-    padding-top: 15px;
-
-
-}
-
-
-
-.blks-10-11 {
-    background-color: rgb(90, 46, 131);
-    height: 50px;
-    width: 350px;
-    border: 1px solid;
-    
-
-
-}
-
-.blks-10-12 {
-    background-color: rgb(90, 46, 131);
-    height: 50px;
-    width: 350px;
-    border: 1px solid;
-    
-
-
-}
-.blks-10-13 {
-    background-color: rgb(90, 46, 131);
-    height: 50px;
-    width: 350px;
-    border: 1px solid;
-    
-
-
-}
-
-.blks-10-14 {
-    background-color: rgb(90, 46, 131);
-    height: 100px;
-    width: 350px;
-    border: 1px solid;
-    
-
-
-}
-
-.blks-10-15 {
-    background-color: rgb(90, 46, 131);
-    height: 50px;
-    width: 350px;
-    border: 1px solid;
-    
-
+    color: white;
+    background-color: rgb(90, 58, 120);
+    font-size: 17px;
 
 }
 
 
+.sub-7:hover {
 
-/* 11 */
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}
+
+.enq-10 h1 {
+
+    font-size: 30px;
+}
+
+.enq-10 p {
+
+    font-size: 19px;
+}
+
+
+
+.first-form ::placeholder {
+
+    color: white;
+    font-size: 17px;
+}
+
+.second-frm ::placeholder {
+
+    color: white;
+    font-size: 17px;
+}
+
+
+/* 11matha */
+
+
 
 .page-11 {
 
     padding-top: 100px;
-}
-
+    background-image: url(/image/bga2.svg);
+    background-repeat: no-repeat;
+    background-size:200px;
+}   
 
 .hed-11 {
 
@@ -980,7 +1234,13 @@
 .hed-11>h1 {
 
     color: rgb(68, 15, 117);
-    font-size: 30px;
+    font-size: 35px;
+}
+
+
+.hed-11>h3 {
+    font-size: 25px;
+
 }
 
 .major-11 {
@@ -989,7 +1249,7 @@
     /* justify-content: space-between; */
     /* align-items: center; */
     gap: 50px;
-    margin: 0 200px;
+    margin: 0 90px;
 
 }
 
@@ -1028,6 +1288,11 @@
     flex: 2;
 }
 
+.rt-11>details {
+
+    font-size: 20px;
+}
+
 .lt-11 {
 
     /* border: 1px solid; */
@@ -1038,63 +1303,91 @@
 /* end */
 
 
-   /* 12matha */
+/* 12matha */
 
 
 
-   .round-12{
+.round-12 {
 
-    padding
-   }
+    /* padding: 50px ; */
+}
 
-   .parent-12{
 
-    padding-right: 500px;
-   }
 
-   .img-12{
+.img-12 {
 
-     background-image: url('https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/footer-bg.svg');
-     background-repeat: no-repeat;
-     width: 1600px;
-     /* height: px; */
-     
-    
-   }
+    background-image: url(/image/footer-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    /* width: 1600px; */
+    padding: 50px;
 
-   .maj-12{
+
+
+}
+
+.maj-12 {
 
     display: flex;
     justify-content: center;
     /* gap: 50px; */
     padding-top: 60px;
 
-   }
+}
 
-   .mj-12{
-    
+.mj-12 {
+
     /* border: 1px solid; */
     height: 200px;
     width: 500px;
     color: white;
-    
-   }
 
-   .down-12{
+
+
+
+}
+
+.down-12 {
 
     display: flex;
     justify-content: center;
+    padding-top: 30px;
     /* gap: 0px; */
-    
-   } 
 
-   .dwn-12{
- 
+
+}
+
+.dwn-12 {
+
     /* border: 1px solid; */
     height: 200px;
     width: 250px;
     color: white;
     padding-top: 10px;
-    
-    
-   }
+    cursor: pointer;
+}
+
+
+.dwn-12 h3:hover {
+
+    color: orange;
+}
+
+.dwn-h1 {
+
+    font-size: 35px;
+}
+
+.dwn-12 h3 {
+
+
+    margin: 10px 0;
+
+}
+
+.mj-12 h3 {
+
+
+    margin: 10px 0;
+
+}
